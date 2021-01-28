@@ -1,0 +1,24 @@
+@import "../colors";
+
+.elevator-car {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+
+  .elevator-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 1rem;
+    width: 100px;
+    height: 100px;
+    background: darkslategrey;
+    color: white;
+  }
+}
